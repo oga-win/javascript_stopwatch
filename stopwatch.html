@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>  <!-- jqueryで実装する場合 -->
+        <link rel="stylesheet" href="stopwatch.css">
+        <title>ストップウォッチ</title>
+    </head>
+
+    <body>
+        <div class="container">
+        <h3>ストップウォッチ</h3>
+            <div id="timer">
+                <p id="text">
+                    <span id="min">0</span>
+                    <span id="sec">:0.0</span>
+                </p>
+            </div>
+            <input type="button" id="start" class="btn start" value="start">
+            <input type="button" id="stop" class="btn stop" value="stop" disabled>
+            <input type="button" id="reset" class="btn reset" value="reset" disabled>
+        </div>
+        
+        <script src="stopwatch.js">
+            
+        </script>
+</html>
